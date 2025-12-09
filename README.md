@@ -29,7 +29,7 @@ Full-stack task management app with Django REST Framework backend and React fron
 cd backend/
 python -m venv venv
 source venv/bin/activate 
-pip install django djangorestframework
+pip install -r requirements.txt
 python manage.py makemigrations tasks
 python manage.py migrate
 python manage.py runserver  # Runs at http://127.0.0.1:8000

@@ -7,7 +7,7 @@ Django REST Framework API for task management.
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install django djangorestframework
+pip install -r requirements.txt
 python manage.py makemigrations tasks
 python manage.py migrate
 python manage.py runserver  # http://127.0.0.1:8000
